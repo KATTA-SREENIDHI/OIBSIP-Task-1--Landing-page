@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffea00;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 span {
+  color: #ffea00;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  color: #0083b0;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffea00;
+  color: #333;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-box div {
+  background: #0083b0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.projects {
+  background: #e7f5f8;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.contact {
+  background: #0083b0;
+  color: white;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
